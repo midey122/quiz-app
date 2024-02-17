@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="refresh" content="2">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuizzyBits</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Roboto+Condensed:wght@700&display=swap"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="left normal-page">
+        <h1>Quizzy<span>Bits</span></h1>
+      </div>
+      <div class="right" id="navLinks">
+        <a class="links" href="#">Home</a>
+        <a class="links" href="">Profile</a>
+        <a class="links" href="/html/lead.html">LeaderBoard</a>
+        <a class="links" href="/html/login.html">Login/SignUp</a>
+      </div>
+      <label class="menu" id="hamburger">
+        <input type="checkbox" id="toggleNav" />
+        <div>
+          <span></span>
+          <span></span>
+        </div>
+      </label>
+    </nav>
+    <section>
+      <div class="container">
+        <div class="question">
+          <h2>Question 1</h2>
+          <p>What is the capital of France?</p>
+        </div>
+        <ul class="options">
+          <li><input type="radio" name="q1" value="a" /> Paris</li>
+          <li><input type="radio" name="q1" value="b" /> London</li>
+          <li><input type="radio" name="q1" value="c" /> Berlin</li>
+          <li><input type="radio" name="q1" value="d" /> Madrid</li>
+        </ul>
+        <div class="down">
+          <button type="submit">Submit</button>
+          <button>Next</button>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="script.js"></script>
+</html>

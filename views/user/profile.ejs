@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/profile.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <div class="left normal-page">
+        <h1>Quizzy<span>Bits</span></h1>
+      </div>
+      <div class="right" id="navLinks">
+        <a class="links" href="/index.html">Home</a>
+        <a class="links" href="#">Profile</a>
+        <a class="links" href="/html/lead.html">LeaderBoard</a>
+        <a class="links" href="/html/login.html">Login/SignUp</a>
+      </div>
+      <label class="menu" id="hamburger">
+        <input type="checkbox" id="toggleNav" />
+        <div>
+          <span></span>
+          <span></span>
+        </div>
+      </label>
+    </nav>
+    <div class="container">
+      <div class="profile-container">
+        <div class="profile-header">
+          <img
+            src="/checked.png"
+            alt="Profile Picture"
+            class="profile-picture"
+          />
+          <div class="profile-info">
+            <label for="username">Username :&nbsp;</label>
+            <p id="username">olaniyi paul jame</p>
+            <label for="email">Email :</label>
+            <p id="email">user@example.com</p>
+            <label for="password">Password :</label>
+            <div class="password-container">
+              <span id="password">YourPassword123</span>
+              <span id="togglePassword" class="eye">&#128065;</span>
+            </div>
+          </div>
+          <article class="edit">Edit Profile</article>
+          <article class="Delete">Delete Account</article>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="/script.js"></script>
+</html>

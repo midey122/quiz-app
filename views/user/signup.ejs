@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/login.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Roboto+Condensed:wght@700&display=swap"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Quiz Login</title>
+  </head>
+  <body>
+    <div class="login-container">
+      <h2>Quiz Registration</h2>
+      <form id="loginForm" action="/user/signup" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+          <input type="text" id="username" name="username" required />
+          <label for="username">Username</label>
+        </div>
+        <!-- <div class="form-group">
+          <input type="email" id="password" name="password" required />
+          <label for="password">Email</label>
+        </div> -->
+        <div class="form-group">
+          <input type="password" id="password" name="password" required />
+          <label for="password">Password</label>
+        </div>
+        <!-- <div class="form-group">
+          <input type="password" id="username" name="username" required />
+          <label for="username">Confirm Password</label>
+        </div> -->
+        <div class="form-group">
+          <button type="submit">Registration</button>
+        </div>
+      </form>
+      <p class="login-link">
+        Already have an account? <a href="login.html">Login here</a>
+      </p>
+    </div>
+  </body>
+</html>

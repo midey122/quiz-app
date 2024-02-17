@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/login.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Roboto+Condensed:wght@700&display=swap"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Quiz Login</title>
+  </head>
+  <body>
+    <div class="login-overlay">
+      <div class="login-container">
+        <h2>Quiz Login</h2>
+        <form id="loginForm" action="/user/login" method="post">
+          <div class="form-group">
+            <input type="text" id="username" name="username" />
+            <label for="username">Username</label>
+          </div>
+
+          <div class="form-group">
+            <input type="password" id="password" name="password" required />
+            <label for="password">Password</label>
+          </div>
+
+          <div class="form-group">
+            <button type="submit" onclick="validateLogin()">Login</button>
+          </div>
+        </form>
+        <p class="register-link">
+          Don't have an account? <a href="signup.ejs">Register here</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
